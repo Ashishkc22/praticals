@@ -3,20 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Add List Element</title>
+    <title>Click and Double-Click</title>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
-    <ul id="myList">
-        <li>Item 1</li>
-        <li>Item 2</li>
-    </ul>
-    <button id="addItem">Add List Item</button>
+    <p id="clickable">Click me!</p>
 
     <script>
         $(document).ready(function () {
-            $("#addItem").click(function () {
-                $("#myList").append("<li>New Item</li>");
+            $("#clickable").click(function () {
+                $(this).after("<p>This is a click Event</p>");
+            });
+
+            $("#clickable").dblclick(function () {
+                $(this).after("<p>This is a double-click Event</p>");
             });
         });
     </script>

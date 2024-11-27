@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Index to List Items</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <ul id="indexList">
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Cherry</li>
+    </ul>
+    <button id="addIndex">Add Index</button>
+
+    <script>
+        $(document).ready(function () {
+            $("#addIndex").click(function () {
+                $("#indexList li").each(function (index) {
+                    $(this).prepend(`<span>${index + 1}. </span>`);
+                });
+            });
+        });
+    </script>
+</body>
+</html>

@@ -3,20 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Add List Element</title>
+    <title>Append Div</title>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
-    <ul id="myList">
-        <li>Item 1</li>
-        <li>Item 2</li>
-    </ul>
-    <button id="addItem">Add List Item</button>
+    <button id="addDiv">Append Div</button>
 
     <script>
         $(document).ready(function () {
-            $("#addItem").click(function () {
-                $("#myList").append("<li>New Item</li>");
+            $("#addDiv").click(function () {
+                $("body").append('<div><h1>Ashish</h1></div>');
             });
         });
     </script>
