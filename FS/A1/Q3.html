@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag and Drop Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            text-align: center;
+        }
+        #rectangle {
+            width: 300px;
+            height: 200px;
+            border: 2px dashed #333;
+            margin: 20px auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #fff;
+        }
+        #rectangle.drag-over {
+            background-color: #e8f0fe;
+        }
+        img {
+            width: 100px;
+            height:150px;
+            cursor: grab;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Drag and Drop Example</h1>
+        <p>Drag the image and drop it into the rectangle below:</p>
+        <img src="doremon.jfif" alt="Draggable" id="draggableImage" draggable="true">
+        <div id="rectangle">
+            Drop here
+        </div>
+    </div>
+
+    <script>
+        const draggableImage = document.getElementById("draggableImage");
+        const rectangle = document.getElementById("rectangle");
+
+        rectangle.addEventListener("dragover", (event) => {
+            event.preventDefault();
+            rectangle.classList.add("drag-over");
+        });
+
+        rectangle.addEventListener("dragleave", () => {
+            rectangle.classList.remove("drag-over");
+        });
+
+        rectangle.addEventListener("drop", (event) => {
+            event.preventDefault();
+            rectangle.classList.remove("drag-over");
+            const imageClone = draggableImage.cloneNode(true);
+            rectangle.innerHTML = ""; 
+            rectangle.appendChild(imageClone); 
+        });
+    </script>
+</body>
+</html>

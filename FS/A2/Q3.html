@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Capital</title>
+
+    <style>
+        /* Blinking effect for the header */
+        @keyframes blink {
+            0% { opacity: 1; }
+            50% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+
+        h1 {
+            animation: blink 1s infinite;
+        }
+
+        /* CSS to style the capital text */
+        .capital {
+            color: #2c3e50;
+            font-weight: bold;
+            font-size: 20px;
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header with blinking effect -->
+    <h1>Display Capital</h1>
+
+    <!-- Selection box with countries -->
+    <label for="countrySelect">Select a Country: </label>
+    <select id="countrySelect" onchange="displayCapital()">
+        <option value="">--Choose a country--</option>
+        <option value="USA">United States</option>
+        <option value="France">France</option>
+        <option value="Germany">Germany</option>
+        <option value="Japan">Japan</option>
+        <option value="India">India</option>
+    </select>
+
+    <!-- Display the selected capital -->
+    <span id="capital" class="capital"></span>
+
+    <script>
+        // Function to display the capital based on selected country
+        function displayCapital() {
+            var country = document.getElementById("countrySelect").value;
+            var capitalText = "";
+
+            // Determine the capital based on the country selected
+            if (country === "USA") {
+                capitalText = "Washington D.C.";
+            } else if (country === "France") {
+                capitalText = "Paris";
+            } else if (country === "Germany") {
+                capitalText = "Berlin";
+            } else if (country === "Japan") {
+                capitalText = "Tokyo";
+            } else if (country === "India") {
+                capitalText = "New Delhi";
+            }
+
+            // Display the capital next to the list
+            document.getElementById("capital").textContent = capitalText;
+        }
+    </script>
+
+</body>
+</html>

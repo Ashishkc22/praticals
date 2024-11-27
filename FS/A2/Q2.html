@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Demonstration</title>
+    <!-- Embedded CSS Stylesheet -->
+    <style>
+      /* This is an embedded CSS */
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f8ff;
+        margin: 0;
+        padding: 0;
+      }
+
+      h1 {
+        color: #2c3e50;
+        text-align: center;
+        padding: 20px;
+      }
+
+      .content {
+        padding: 20px;
+        background-color: #ecf0f1;
+        margin: 20px;
+        border-radius: 10px;
+      }
+
+      .footer {
+        text-align: center;
+        padding: 10px;
+        background-color: #2c3e50;
+        color: white;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+      }
+    </style>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>CSS Demonstration Page</h1>
+
+    <div class="intro">
+      <p>This page demonstrates three types of CSS styling:</p>
+      <ul>
+        <li>Embedded Stylesheets</li>
+        <li>External Stylesheets</li>
+        <li>Inline Styles</li>
+      </ul>
+    </div>
+
+    <!-- Example of inline styles -->
+    <div class="content" style="background-color: #f9ebae">
+      <p style="color: #2d3e50; font-size: 16px">
+        This section uses inline styles for individual elements. Notice the
+        background color and font color.
+      </p>
+      <button
+        style="
+          padding: 10px;
+          background-color: #27ae60;
+          color: white;
+          border: none;
+          border-radius: 5px;
+        "
+      >
+        Inline Styled Button
+      </button>
+    </div>
+    <h2>External Stylesheet</h2>
+    <div class="footer">
+      <p>Footer styled using embedded CSS.</p>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Salary Slip</title>
+    <script>
+        function calculateSalary() {
+            // Get the basic salary input
+            let basicSalary = parseFloat(document.getElementById("basicSalary").value);
+            
+            // Calculate different components
+            let da = basicSalary * 0.10; // 10% DA
+            let hra = basicSalary * 0.15; // 15% HRA
+            let pf = basicSalary * 0.12; // 12% PF
+            let tax = basicSalary * 0.05; // 5% Tax
+            let grossPay = basicSalary + da + hra;
+            let deduction = pf + tax;
+            let netPay = grossPay - deduction;
+
+            // Display the salary slip
+            document.getElementById("salarySlip").innerHTML = `
+                <h3>Salary Slip</h3>
+                <p>Basic Salary: ${basicSalary}</p>
+                <p>DA (10%): ${da}</p>
+                <p>HRA (15%): ${hra}</p>
+                <p>PF (12%): ${pf}</p>
+                <p>Tax (5%): ${tax}</p>
+                <p>Gross Pay: ${grossPay}</p>
+                <p>Deduction: ${deduction}</p>
+                <p>Net Pay: ${netPay}</p>
+            `;
+        }
+    </script>
+</head>
+<body>
+    <h2>Employee Salary Slip Form</h2>
+    <form onsubmit="event.preventDefault(); calculateSalary();">
+        <label for="basicSalary">Basic Salary: </label>
+        <input type="number" id="basicSalary" required><br><br>
+        <button type="submit">Generate Salary Slip</button>
+    </form>
+
+    <div id="salarySlip"></div>
+</body>
+</html>

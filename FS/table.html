@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Webpage with Table</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f9f9f9;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        table {
+            width: 80%;
+            margin: 0 auto;
+            border-collapse: collapse;
+            background-color: #fff;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        tr:hover {
+            background-color: #ddd;
+        }
+        caption {
+            margin: 10px;
+            font-size: 1.2em;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <h1>Employee Information</h1>
+    <table>
+        <caption>List of Employees</caption>
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Name</th>
+                <th>Position</th>
+                <th>Department</th>
+                <th>Salary ($)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>John Doe</td>
+                <td>Software Engineer</td>
+                <td>IT</td>
+                <td>70,000</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Jane Smith</td>
+                <td>Project Manager</td>
+                <td>Operations</td>
+                <td>85,000</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
