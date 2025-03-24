@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "run-a1": "node a1.js",
+    "run-a2": "node a2.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "mongoose": "^8.12.2"
+  }
+}
