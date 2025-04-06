@@ -1,0 +1,62 @@
+﻿@model HomeViewModel
+
+<div class="container mt-5">
+    <div class="text-center">
+        <h1 class="display-4 fw-bold">@Model.Name</h1>
+        <p class="lead mt-3">@Model.Intro</p>
+        <div class="mt-4 p-4 bg-light rounded-3 shadow-sm">
+            <h3 class="text-primary">@Model.Tagline</h3>
+        </div>
+    </div>
+
+    <div class="mt-5">
+        <h2 class="text-center mb-4">Tech Stack</h2>
+        <div class="d-flex flex-wrap justify-content-center gap-3">
+            <span class="badge bg-dark fs-6">MongoDB</span>
+            <span class="badge bg-success fs-6">Express.js</span>
+            <span class="badge bg-primary fs-6">React.js</span>
+            <span class="badge bg-warning text-dark fs-6">Node.js</span>
+            <span class="badge bg-info text-dark fs-6">JavaScript</span>
+            <span class="badge bg-secondary fs-6">Flutter (Web/Desktop)</span>
+            <span class="badge bg-light text-dark fs-6">Material-UI</span>
+            <span class="badge bg-danger fs-6">Sequelize</span>
+            <span class="badge bg-dark fs-6">Git & GitHub</span>
+        </div>
+    </div>
+
+    <div class="mt-5">
+        <h2 class="text-center mb-4">Featured Projects</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+                <div class="card shadow-sm mb-4">
+                    <div class="card-body">
+                        <h5 class="card-title">TripMate</h5>
+                        <p class="card-text">A modern trip-planning and management app, built with MERN stack. Features booking, live tracking, and cost-sharing options.</p>
+                        <a href="https://github.com/ashishxdev/TripMate" class="btn btn-outline-primary" target="_blank">View Project</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card shadow-sm mb-4">
+                    <div class="card-body">
+                        <h5 class="card-title">Ticketing System Backend</h5>
+                        <p class="card-text">Scalable backend for managing support tickets with authentication, user roles, and real-time updates.</p>
+                        <a href="https://github.com/ashishxdev/ticketing-system-backend" class="btn btn-outline-primary" target="_blank">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mt-5 text-center">
+        <h2>Connect with Me</h2>
+        <p class="mb-3">Let's build something awesome together.</p>
+        <a href="https://github.com/ashishxdev" class="btn btn-dark me-2" target="_blank">GitHub</a>
+        <a href="/files/Ashish_Choudhari_Resume.pdf" class="btn btn-outline-secondary" target="_blank">Download Resume</a>
+    </div>
+
+    <div class="mt-5 text-center text-muted">
+        <small>&copy; @DateTime.Now.Year Ashish Krishna Choudhari. All rights reserved.</small>
+    </div>
+</div>

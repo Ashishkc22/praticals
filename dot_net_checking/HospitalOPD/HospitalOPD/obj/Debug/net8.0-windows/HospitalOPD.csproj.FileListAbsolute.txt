@@ -1,0 +1,49 @@
+C:\Users\omgaw\source\repos\HospitalOPD\HospitalOPD\obj\Debug\net8.0-windows\HospitalOPD.csproj.GenerateResource.cache
+C:\Users\omgaw\source\repos\HospitalOPD\HospitalOPD\obj\Debug\net8.0-windows\HospitalOPD.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\omgaw\source\repos\HospitalOPD\HospitalOPD\obj\Debug\net8.0-windows\HospitalOPD.AssemblyInfoInputs.cache
+C:\Users\omgaw\source\repos\HospitalOPD\HospitalOPD\obj\Debug\net8.0-windows\HospitalOPD.AssemblyInfo.cs
+C:\Users\omgaw\source\repos\HospitalOPD\HospitalOPD\obj\Debug\net8.0-windows\HospitalOPD.csproj.CoreCompileInputs.cache
+C:\Users\omgaw\source\repos\HospitalOPD\HospitalOPD\obj\Debug\net8.0-windows\HospitalOPD.sourcelink.json
+C:\Users\omgaw\source\repos\HospitalOPD\HospitalOPD\bin\Debug\net8.0-windows\HospitalOPD.exe
+C:\Users\omgaw\source\repos\HospitalOPD\HospitalOPD\bin\Debug\net8.0-windows\HospitalOPD.deps.json
+C:\Users\omgaw\source\repos\HospitalOPD\HospitalOPD\bin\Debug\net8.0-windows\HospitalOPD.runtimeconfig.json
+C:\Users\omgaw\source\repos\HospitalOPD\HospitalOPD\bin\Debug\net8.0-windows\HospitalOPD.dll
+C:\Users\omgaw\source\repos\HospitalOPD\HospitalOPD\bin\Debug\net8.0-windows\HospitalOPD.pdb
+C:\Users\omgaw\source\repos\HospitalOPD\HospitalOPD\obj\Debug\net8.0-windows\HospitalOPD.Form1.resources
+C:\Users\omgaw\source\repos\HospitalOPD\HospitalOPD\obj\Debug\net8.0-windows\HospitalOPD.dll
+C:\Users\omgaw\source\repos\HospitalOPD\HospitalOPD\obj\Debug\net8.0-windows\refint\HospitalOPD.dll
+C:\Users\omgaw\source\repos\HospitalOPD\HospitalOPD\obj\Debug\net8.0-windows\HospitalOPD.pdb
+C:\Users\omgaw\source\repos\HospitalOPD\HospitalOPD\obj\Debug\net8.0-windows\HospitalOPD.genruntimeconfig.cache
+C:\Users\omgaw\source\repos\HospitalOPD\HospitalOPD\obj\Debug\net8.0-windows\ref\HospitalOPD.dll
+C:\Users\Ashish\Downloads\Dotnet-main\Dotnet-main\HospitalOPD\HospitalOPD\bin\Debug\net8.0-windows\HospitalOPD.exe
+C:\Users\Ashish\Downloads\Dotnet-main\Dotnet-main\HospitalOPD\HospitalOPD\bin\Debug\net8.0-windows\HospitalOPD.deps.json
+C:\Users\Ashish\Downloads\Dotnet-main\Dotnet-main\HospitalOPD\HospitalOPD\bin\Debug\net8.0-windows\HospitalOPD.runtimeconfig.json
+C:\Users\Ashish\Downloads\Dotnet-main\Dotnet-main\HospitalOPD\HospitalOPD\bin\Debug\net8.0-windows\HospitalOPD.dll
+C:\Users\Ashish\Downloads\Dotnet-main\Dotnet-main\HospitalOPD\HospitalOPD\bin\Debug\net8.0-windows\HospitalOPD.pdb
+C:\Users\Ashish\Downloads\Dotnet-main\Dotnet-main\HospitalOPD\HospitalOPD\obj\Debug\net8.0-windows\HospitalOPD.Form1.resources
+C:\Users\Ashish\Downloads\Dotnet-main\Dotnet-main\HospitalOPD\HospitalOPD\obj\Debug\net8.0-windows\HospitalOPD.csproj.GenerateResource.cache
+C:\Users\Ashish\Downloads\Dotnet-main\Dotnet-main\HospitalOPD\HospitalOPD\obj\Debug\net8.0-windows\HospitalOPD.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ashish\Downloads\Dotnet-main\Dotnet-main\HospitalOPD\HospitalOPD\obj\Debug\net8.0-windows\HospitalOPD.AssemblyInfoInputs.cache
+C:\Users\Ashish\Downloads\Dotnet-main\Dotnet-main\HospitalOPD\HospitalOPD\obj\Debug\net8.0-windows\HospitalOPD.AssemblyInfo.cs
+C:\Users\Ashish\Downloads\Dotnet-main\Dotnet-main\HospitalOPD\HospitalOPD\obj\Debug\net8.0-windows\HospitalOPD.csproj.CoreCompileInputs.cache
+C:\Users\Ashish\Downloads\Dotnet-main\Dotnet-main\HospitalOPD\HospitalOPD\obj\Debug\net8.0-windows\HospitalOPD.dll
+C:\Users\Ashish\Downloads\Dotnet-main\Dotnet-main\HospitalOPD\HospitalOPD\obj\Debug\net8.0-windows\refint\HospitalOPD.dll
+C:\Users\Ashish\Downloads\Dotnet-main\Dotnet-main\HospitalOPD\HospitalOPD\obj\Debug\net8.0-windows\HospitalOPD.pdb
+C:\Users\Ashish\Downloads\Dotnet-main\Dotnet-main\HospitalOPD\HospitalOPD\obj\Debug\net8.0-windows\HospitalOPD.genruntimeconfig.cache
+C:\Users\Ashish\Downloads\Dotnet-main\Dotnet-main\HospitalOPD\HospitalOPD\obj\Debug\net8.0-windows\ref\HospitalOPD.dll
+C:\Users\Ashish\Desktop\MSC (CS)\SEM-2 pratical\dot_net_checking\HospitalOPD\HospitalOPD\bin\Debug\net8.0-windows\HospitalOPD.exe
+C:\Users\Ashish\Desktop\MSC (CS)\SEM-2 pratical\dot_net_checking\HospitalOPD\HospitalOPD\bin\Debug\net8.0-windows\HospitalOPD.deps.json
+C:\Users\Ashish\Desktop\MSC (CS)\SEM-2 pratical\dot_net_checking\HospitalOPD\HospitalOPD\bin\Debug\net8.0-windows\HospitalOPD.runtimeconfig.json
+C:\Users\Ashish\Desktop\MSC (CS)\SEM-2 pratical\dot_net_checking\HospitalOPD\HospitalOPD\bin\Debug\net8.0-windows\HospitalOPD.dll
+C:\Users\Ashish\Desktop\MSC (CS)\SEM-2 pratical\dot_net_checking\HospitalOPD\HospitalOPD\bin\Debug\net8.0-windows\HospitalOPD.pdb
+C:\Users\Ashish\Desktop\MSC (CS)\SEM-2 pratical\dot_net_checking\HospitalOPD\HospitalOPD\obj\Debug\net8.0-windows\HospitalOPD.Form1.resources
+C:\Users\Ashish\Desktop\MSC (CS)\SEM-2 pratical\dot_net_checking\HospitalOPD\HospitalOPD\obj\Debug\net8.0-windows\HospitalOPD.csproj.GenerateResource.cache
+C:\Users\Ashish\Desktop\MSC (CS)\SEM-2 pratical\dot_net_checking\HospitalOPD\HospitalOPD\obj\Debug\net8.0-windows\HospitalOPD.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ashish\Desktop\MSC (CS)\SEM-2 pratical\dot_net_checking\HospitalOPD\HospitalOPD\obj\Debug\net8.0-windows\HospitalOPD.AssemblyInfoInputs.cache
+C:\Users\Ashish\Desktop\MSC (CS)\SEM-2 pratical\dot_net_checking\HospitalOPD\HospitalOPD\obj\Debug\net8.0-windows\HospitalOPD.AssemblyInfo.cs
+C:\Users\Ashish\Desktop\MSC (CS)\SEM-2 pratical\dot_net_checking\HospitalOPD\HospitalOPD\obj\Debug\net8.0-windows\HospitalOPD.csproj.CoreCompileInputs.cache
+C:\Users\Ashish\Desktop\MSC (CS)\SEM-2 pratical\dot_net_checking\HospitalOPD\HospitalOPD\obj\Debug\net8.0-windows\HospitalOPD.dll
+C:\Users\Ashish\Desktop\MSC (CS)\SEM-2 pratical\dot_net_checking\HospitalOPD\HospitalOPD\obj\Debug\net8.0-windows\refint\HospitalOPD.dll
+C:\Users\Ashish\Desktop\MSC (CS)\SEM-2 pratical\dot_net_checking\HospitalOPD\HospitalOPD\obj\Debug\net8.0-windows\HospitalOPD.pdb
+C:\Users\Ashish\Desktop\MSC (CS)\SEM-2 pratical\dot_net_checking\HospitalOPD\HospitalOPD\obj\Debug\net8.0-windows\HospitalOPD.genruntimeconfig.cache
+C:\Users\Ashish\Desktop\MSC (CS)\SEM-2 pratical\dot_net_checking\HospitalOPD\HospitalOPD\obj\Debug\net8.0-windows\ref\HospitalOPD.dll

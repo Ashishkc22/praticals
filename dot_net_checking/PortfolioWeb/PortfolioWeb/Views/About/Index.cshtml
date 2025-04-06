@@ -1,0 +1,36 @@
+﻿@model AboutViewModel
+
+<div class="container my-5">
+    <h2 class="text-center fw-bold mb-4">About Me</h2>
+
+    <div class="card shadow-lg border-0">
+        <div class="card-body p-5">
+            <h4 class="card-title mb-3 text-primary">👨‍💻 Background</h4>
+            <p class="card-text">@Model.Background</p>
+
+            <hr class="my-4" />
+
+            <h4 class="card-title mb-3 text-success">💼 Experience</h4>
+            <p class="card-text">@Model.Experience</p>
+
+            <hr class="my-4" />
+
+            <h4 class="card-title mb-3 text-info">🎯 Goals</h4>
+            <p class="card-text">@Model.Goals</p>
+
+            @if (!string.IsNullOrEmpty(Model.Achievements))
+            {
+                <hr class="my-4" />
+                <h4 class="card-title mb-3 text-warning">🏆 Achievements</h4>
+                <p class="card-text">@Model.Achievements</p>
+            }
+
+            @if (!string.IsNullOrEmpty(Model.Interests))
+            {
+                <hr class="my-4" />
+                <h4 class="card-title mb-3 text-secondary">🎨 Interests</h4>
+                <p class="card-text">@Model.Interests</p>
+            }
+        </div>
+    </div>
+</div>

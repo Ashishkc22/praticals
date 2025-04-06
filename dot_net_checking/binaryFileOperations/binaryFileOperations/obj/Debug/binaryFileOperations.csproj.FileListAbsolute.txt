@@ -1,0 +1,14 @@
+D:\NishidhCollege\Dotnet\binaryFileOperations\binaryFileOperations\bin\Debug\binaryFileOperations.exe.config
+D:\NishidhCollege\Dotnet\binaryFileOperations\binaryFileOperations\bin\Debug\binaryFileOperations.exe
+D:\NishidhCollege\Dotnet\binaryFileOperations\binaryFileOperations\bin\Debug\binaryFileOperations.pdb
+D:\NishidhCollege\Dotnet\binaryFileOperations\binaryFileOperations\obj\Debug\binaryFileOperations.csproj.AssemblyReference.cache
+D:\NishidhCollege\Dotnet\binaryFileOperations\binaryFileOperations\obj\Debug\binaryFileOperations.csproj.CoreCompileInputs.cache
+D:\NishidhCollege\Dotnet\binaryFileOperations\binaryFileOperations\obj\Debug\binaryFileOperations.exe
+D:\NishidhCollege\Dotnet\binaryFileOperations\binaryFileOperations\obj\Debug\binaryFileOperations.pdb
+C:\Users\Ashish\Desktop\MSC (CS)\SEM-2 pratical\dot_net_checking\binaryFileOperations\binaryFileOperations\bin\Debug\binaryFileOperations.exe.config
+C:\Users\Ashish\Desktop\MSC (CS)\SEM-2 pratical\dot_net_checking\binaryFileOperations\binaryFileOperations\bin\Debug\binaryFileOperations.exe
+C:\Users\Ashish\Desktop\MSC (CS)\SEM-2 pratical\dot_net_checking\binaryFileOperations\binaryFileOperations\bin\Debug\binaryFileOperations.pdb
+C:\Users\Ashish\Desktop\MSC (CS)\SEM-2 pratical\dot_net_checking\binaryFileOperations\binaryFileOperations\obj\Debug\binaryFileOperations.csproj.AssemblyReference.cache
+C:\Users\Ashish\Desktop\MSC (CS)\SEM-2 pratical\dot_net_checking\binaryFileOperations\binaryFileOperations\obj\Debug\binaryFileOperations.csproj.CoreCompileInputs.cache
+C:\Users\Ashish\Desktop\MSC (CS)\SEM-2 pratical\dot_net_checking\binaryFileOperations\binaryFileOperations\obj\Debug\binaryFileOperations.exe
+C:\Users\Ashish\Desktop\MSC (CS)\SEM-2 pratical\dot_net_checking\binaryFileOperations\binaryFileOperations\obj\Debug\binaryFileOperations.pdb
